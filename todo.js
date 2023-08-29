@@ -14,7 +14,7 @@ function addTask() {
     input.value=''
 }
 list.addEventListener("click",(e)=>{
-    // console.log(e.target.nodeName);
+    // console.log(e.target);
     // console.log(e.target.parentElement);
     if(e.target.tagName==='LI'){
         e.target.classList.toggle("checked");
